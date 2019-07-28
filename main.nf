@@ -247,7 +247,7 @@ process '3_rnaseq_gatk_splitNcigar' {
           -rf ReassignOneMappingQuality \
           -RMQF 255 -RMQT 60 \
           -U ALLOW_N_CIGAR_READS \
-          --fix_misencoded_quality_scores
+  #        --fix_misencoded_quality_scores
   """
 }
 
